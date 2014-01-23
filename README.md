@@ -26,7 +26,8 @@ Even quicker with a VM
 
 If you don't want to install anything on your local workstation, I have included a config for VM which will install everything. 
 
-- Install Vagrant (vagrantup.com)
+- Install Vagrant (vagrantup.com) 
+- Install Virtualbox (Vmware Fusion not supported.. yet)
 - vagrant up (in the directory containing Vagrantfile)
 - vagrant ssh
 
