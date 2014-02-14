@@ -2,6 +2,12 @@ This is a chef repo to get you going. One of the first steps is to install chef-
 
 Its based on the starter kit when you sign up for Enterprise Chef. This has some minor modifications to preserve chef version across installs. Also gives an option to boot up a VM via Vagrant configured to be a chef workstation. 
 
+#Which ruby version to use?
+
+- If you are starting for the first time go with the latest stable - 2.1.x
+- Else 1.9.x should be good enough
+- [Set here for the VM](_vagrant_helpers/chef_ws_provisioner.sh)
+
 #Installing natively on a Mac
 
 - Install rbenv (via homebrew -> brew install rbenv ruby-build)
@@ -9,16 +15,17 @@ Its based on the starter kit when you sign up for Enterprise Chef. This has some
 - rbenv rehash
 - Note, the version number below includes patch level. Use the latest. 
 - You can view by rbenv install --list
-- rbenv install 1.9.3-p484
-- rbenv shell   1.9.3-p484
-- rbenv global  1.9.3-p484
+- rbenv install 2.1.0
+- rbenv shell   2.1.0
+- rbenv global  2.1.0
 - Try ruby -v should give something like 
 
 ```
 ruby -v
-ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin13.0.0]
+ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin13.0]
 ```
-- gem install chef
+- gem install bundler
+- bun
 
 
 #Even quicker with a VM
@@ -41,9 +48,6 @@ vagrant ssh
 
 That's it you have everything installed to play with chef. Try ``chef-client -v``
 
-###Ruby Version 
-
-- [set here for the VM](_vagrant_helpers/chef_ws_provisioner.sh)
 
 #What about .chef, knife config etc?
 
