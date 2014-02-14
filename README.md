@@ -25,7 +25,7 @@ ruby -v
 ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin13.0]
 ```
 - gem install bundler
-- bun
+- bundle install 
 
 
 #Even quicker with a VM
