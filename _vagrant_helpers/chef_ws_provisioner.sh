@@ -2,7 +2,7 @@
 
 # Adapted from https://learnchef.opscode.com/quickstart/workstation-setup/#linux
 
-ruby_version="1.9.3-p484"
+ruby_version="2.1.0"
 
 echo "Running this script as `whoami` - who should have sudo permissions"
 
