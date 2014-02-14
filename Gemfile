@@ -1,4 +1,4 @@
 source 'https://rubygems.org' 
 
-gem 'chef' , '11.8.2'
+gem 'chef' , '11.10.0'
 
