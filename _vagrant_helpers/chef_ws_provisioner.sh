@@ -35,7 +35,7 @@ echo
 gem install bundler
 rbenv rehash
 
-echo "Installing chef via Gemfile.lock"
+echo "Installing chef via Gemfile"
 cd /vagrant/
 bundle install
 rbenv rehash

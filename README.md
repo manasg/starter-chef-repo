@@ -8,6 +8,9 @@ Its based on the starter kit when you sign up for Enterprise Chef. This has some
 - Else 1.9.x should be good enough
 - [Set here for the VM](_vagrant_helpers/chef_ws_provisioner.sh)
 
+#Chef version?
+- [Set in Gemfile](Gemfile) bundle install (below) reads that file
+
 #Installing natively on a Mac
 
 - Install rbenv (via homebrew -> brew install rbenv ruby-build)
